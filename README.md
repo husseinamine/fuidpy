@@ -5,7 +5,9 @@
 ```python
 import fuid
 
-print(fuid.fuid())
+generator = fuid.Generator()
+
+print(gen.fuid())
 ```
 ```
 example output: kmqsujf3MDAwMQ15bl10
