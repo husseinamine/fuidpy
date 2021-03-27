@@ -29,7 +29,7 @@ class Generator:
         return padding
 
     def _b36_time(self):
-        return self._to_base36(int(time.time()*1000000000.0))
+        return self._to_base36(time.time_ns())
 
     def _counter(self):
         self._COUNTER += 1
