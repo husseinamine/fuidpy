@@ -42,7 +42,7 @@ class Generator:
         return base64.b64encode(padded).decode()[:-2]
 
     def _random(self):
-        return self._to_base36(random.getrandbits(32))[:6]
+        return base64.b64encode(os.urandom(6)).decode()[:6].replace('/', 'n').replace('+', 'y')
 
     def fuid(self):
         return "%s%s%s" % (self._b36_time(), self._counter(), self._random())

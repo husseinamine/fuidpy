@@ -1,7 +1,7 @@
 import os
 import setuptools
 
-VERSION = "0.5"
+VERSION = "0.6"
 with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as r:
     README = r.read()
 
