@@ -10,5 +10,5 @@ generator = fuid.Generator()
 print(gen.fuid())
 ```
 ```
-example output: kmqsujf3MDAwMQ15bl10
+example output: ca937s7lv7c8MDAwMQwJp3gE
 ```
